@@ -62,4 +62,11 @@ module.exports = {
     },
     from: envVars.EMAIL_FROM,
   },
+  super_admin: {
+    name: envVars.SUPER_ADMIN_NAME,
+    email: envVars.SUPER_ADMIN_EMAIL,
+    password: envVars.SUPER_ADMIN_PASSWORD,
+    role: envVars.SUPER_ADMIN_ROLE,
+    isEmailVerified: true,
+  },
 };
